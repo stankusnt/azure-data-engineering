@@ -27,10 +27,5 @@ column_list = [
   'exchange',
   'date'
   ]
-class MarketStackAPI(BaseModel):
-  symbol: str
-  high: float
-  date: str
-
 
 
