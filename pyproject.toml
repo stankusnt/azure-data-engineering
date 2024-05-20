@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "azure-local"
+version = "0.1.0"
+description = ""
+authors = ["Personal <nick.stankus@stridetechmedical.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.7.1"
+ruff = "^0.4.4"
+requests = "^2.31.0"
+argparse = "^1.4.0"
+python-dotenv = "^1.0.1"
+azure-cli = "^2.60.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

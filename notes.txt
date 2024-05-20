@@ -1,0 +1,9 @@
+docker build /Users/stankusnt/azure-local
+docker run azure-proj
+container id: d0025d712804a7b9e949e0da6f054bf9e45b75da1a5db952508db0c25d1cdb0d
+# Start container interactively:
+docker run (START WITH ALL THINGS TO RUN/SPECIFY BEFORE RUNNING THE CONTAINER) -it azure-proj /bin/bash
+
+# Sync local with container and manage multiple containers:
+docker compose up
+

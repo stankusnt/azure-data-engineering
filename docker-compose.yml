@@ -1,0 +1,7 @@
+services:
+  azure-connect:
+    image: azure-connect-cont
+    volumes:
+      - ".:/azure-local"
+    ports:
+      - "5434:5434"
