@@ -1,3 +1,5 @@
-poetry
 argparse
+pydantic
 python-dotenv
+azure-functions
+azure-storage-blob
